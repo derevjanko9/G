@@ -1,0 +1,81 @@
+2022-08-06 14:30:42,397 - 10 - decorator - Была вызвана функция arg_parser c параметрами (), {}. 
+2022-08-06 14:30:42,398 - 10 - decorator - Функция arg_parser вызвана из функции main(). 
+2022-08-06 14:30:42,398 - 20 - server - Запущен сервер, порт для подключений: 7774, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов. 
+2022-08-06 14:31:40,034 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 52862) 
+2022-08-06 14:31:40,535 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 52862)>,), {}. 
+2022-08-06 14:31:40,535 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 14:31:40,535 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1659785500.0341735, 'user': {'account_name': 'hi'}} 
+2022-08-06 14:32:14,275 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 52866) 
+2022-08-06 14:32:14,776 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 52866)>,), {}. 
+2022-08-06 14:32:14,777 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 14:32:14,777 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1659785534.275651, 'user': {'account_name': 'ls'}} 
+2022-08-06 14:32:33,800 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 52862)>,), {}. 
+2022-08-06 14:32:33,801 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 14:32:33,801 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'hi', 'to': 'ls', 'time': 1659785553.7137415, 'mess_text': 'shnfo'} 
+2022-08-06 14:32:33,801 - 20 - server - Отправлено сообщение пользователю ls от пользователя hi. 
+2022-08-06 14:33:03,837 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 52866)>,), {}. 
+2022-08-06 14:33:03,837 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 14:33:03,837 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'ls', 'to': 'hi', 'time': 1659785583.4196737, 'mess_text': 'sssss1'} 
+2022-08-06 14:33:03,838 - 20 - server - Отправлено сообщение пользователю hi от пользователя ls. 
+2022-08-06 14:33:16,854 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 52862)>,), {}. 
+2022-08-06 14:33:16,854 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 14:33:16,855 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1659785596.6189976, 'account_name': 'hi'} 
+2022-08-06 14:33:16,855 - 20 - server - Клиент ('127.0.0.1', 52862) отключился от сервера. 
+2022-08-06 14:33:23,362 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 52866)>,), {}. 
+2022-08-06 14:33:23,363 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 14:33:23,363 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1659785602.9470308, 'account_name': 'ls'} 
+2022-08-06 14:33:23,363 - 20 - server - Клиент ('127.0.0.1', 52866) отключился от сервера. 
+2022-08-06 15:29:09,962 - 10 - decorator - Была вызвана функция arg_parser c параметрами (), {}. 
+2022-08-06 15:29:09,963 - 10 - decorator - Функция arg_parser вызвана из функции main(). 
+2022-08-06 15:29:09,963 - 20 - server - Запущен сервер, порт для подключений: 7774, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов. 
+2022-08-06 15:29:19,926 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 56262) 
+2022-08-06 15:29:20,427 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 56262)>,), {}. 
+2022-08-06 15:29:20,427 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 15:29:20,427 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1659788959.9262774, 'user': {'account_name': 'hi'}} 
+2022-08-06 15:29:36,805 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 56266) 
+2022-08-06 15:29:37,306 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 56266)>,), {}. 
+2022-08-06 15:29:37,307 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 15:29:37,307 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1659788976.805587, 'user': {'account_name': 'ls'}} 
+2022-08-06 15:29:48,821 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 56266)>,), {}. 
+2022-08-06 15:29:48,821 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 15:29:48,821 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'ls', 'to': 'hi', 'time': 1659788988.7619889, 'mess_text': 'dddop'} 
+2022-08-06 15:29:48,821 - 20 - server - Отправлено сообщение пользователю hi от пользователя ls. 
+2022-08-06 15:30:12,349 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 56262)>,), {}. 
+2022-08-06 15:30:12,350 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 15:30:12,350 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'hi', 'to': 'ls', 'time': 1659789012.3391323, 'mess_text': 'ldpewkogt 5'} 
+2022-08-06 15:30:12,350 - 20 - server - Отправлено сообщение пользователю ls от пользователя hi. 
+2022-08-06 15:30:20,361 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 56266)>,), {}. 
+2022-08-06 15:30:20,361 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 15:30:20,361 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1659789019.9876156, 'account_name': 'ls'} 
+2022-08-06 15:30:20,362 - 20 - server - Клиент ('127.0.0.1', 56266) отключился от сервера. 
+2022-08-06 15:30:26,870 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 56262)>,), {}. 
+2022-08-06 15:30:26,870 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-06 15:30:26,871 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1659789026.7318432, 'account_name': 'hi'} 
+2022-08-06 15:30:26,871 - 20 - server - Клиент ('127.0.0.1', 56262) отключился от сервера. 
+2022-08-07 14:11:18,528 - 10 - decorator - Была вызвана функция arg_parser c параметрами (), {}. 
+2022-08-07 14:11:18,528 - 10 - decorator - Функция arg_parser вызвана из функции main(). 
+2022-08-07 14:11:18,528 - 20 - server - Запущен сервер, порт для подключений: 7774, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов. 
+2022-08-07 14:13:09,361 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 59018) 
+2022-08-07 14:13:09,862 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 59018)>,), {}. 
+2022-08-07 14:13:09,863 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-07 14:13:09,863 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1659870789.3615696, 'user': {'account_name': 'hi'}} 
+2022-08-07 14:13:28,684 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 59022) 
+2022-08-07 14:13:29,185 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 59022)>,), {}. 
+2022-08-07 14:13:29,186 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-07 14:13:29,186 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1659870808.6845012, 'user': {'account_name': 'ls'}} 
+2022-08-07 14:13:43,202 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 59018)>,), {}. 
+2022-08-07 14:13:43,203 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-07 14:13:43,203 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'hi', 'to': 'ls', 'time': 1659870823.050864, 'mess_text': 'dkjfhgrj'} 
+2022-08-07 14:13:43,204 - 20 - server - Отправлено сообщение пользователю ls от пользователя hi. 
+2022-08-07 14:14:00,224 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 59022)>,), {}. 
+2022-08-07 14:14:00,224 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-07 14:14:00,224 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'ls', 'to': 'hi', 'time': 1659870839.7792587, 'mess_text': '11114141'} 
+2022-08-07 14:14:00,225 - 20 - server - Отправлено сообщение пользователю hi от пользователя ls. 
+2022-08-07 14:14:05,732 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 59018)>,), {}. 
+2022-08-07 14:14:05,732 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-07 14:14:05,732 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1659870845.6267889, 'account_name': 'hi'} 
+2022-08-07 14:14:05,733 - 20 - server - Клиент ('127.0.0.1', 59018) отключился от сервера. 
+2022-08-07 14:14:12,240 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 59022)>,), {}. 
+2022-08-07 14:14:12,241 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-07 14:14:12,241 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1659870852.1636834, 'account_name': 'ls'} 
+2022-08-07 14:14:12,241 - 20 - server - Клиент ('127.0.0.1', 59022) отключился от сервера. 
