@@ -1,0 +1,48 @@
+2022-08-16 18:33:46,494 - 10 - decorator - Была вызвана функция arg_parser c параметрами ('7777', ''), {}. 
+2022-08-16 18:33:46,494 - 10 - decorator - Функция arg_parser вызвана из функции main(). 
+2022-08-16 18:33:46,513 - 20 - server - Запущен сервер, порт для подключений: 7774, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов. 
+2022-08-16 18:34:14,487 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 38748) 
+2022-08-16 18:34:14,988 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38748)>,), {}. 
+2022-08-16 18:34:14,990 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:34:14,990 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1660664054.4878335, 'user': {'account_name': 'hi'}} 
+2022-08-16 18:34:15,502 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38748)>,), {}. 
+2022-08-16 18:34:15,502 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:34:15,502 - 10 - server - Разбор сообщения от клиента : {'action': 'get_users', 'time': 1660664055.0020285, 'account_name': 'hi'} 
+2022-08-16 18:34:16,007 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38748)>,), {}. 
+2022-08-16 18:34:16,008 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:34:16,008 - 10 - server - Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1660664055.5165358, 'user': 'hi'} 
+2022-08-16 18:34:35,890 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 38752) 
+2022-08-16 18:34:36,391 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38752)>,), {}. 
+2022-08-16 18:34:36,391 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:34:36,391 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1660664075.8901174, 'user': {'account_name': 'ls'}} 
+2022-08-16 18:34:36,901 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38752)>,), {}. 
+2022-08-16 18:34:36,901 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:34:36,902 - 10 - server - Разбор сообщения от клиента : {'action': 'get_users', 'time': 1660664076.4008896, 'account_name': 'ls'} 
+2022-08-16 18:34:37,404 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38752)>,), {}. 
+2022-08-16 18:34:37,404 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:34:37,405 - 10 - server - Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1660664076.9136062, 'user': 'ls'} 
+2022-08-16 18:34:55,431 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38748)>,), {}. 
+2022-08-16 18:34:55,431 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:34:55,431 - 10 - server - Разбор сообщения от клиента : {'action': 'add', 'time': 1660664095.1139002, 'user': 'hi', 'account_name': 'ls'} 
+2022-08-16 18:35:16,466 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38748)>,), {}. 
+2022-08-16 18:35:16,466 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:35:16,467 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'hi', 'to': 'ls', 'time': 1660664115.8822615, 'mess_text': 'Привет\n'} 
+2022-08-16 18:35:16,477 - 20 - server - Отправлено сообщение пользователю ls от пользователя hi. 
+2022-08-16 18:35:20,482 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38752)>,), {}. 
+2022-08-16 18:35:20,483 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:35:20,483 - 10 - server - Разбор сообщения от клиента : {'action': 'add', 'time': 1660664120.3493383, 'user': 'ls', 'account_name': 'hi'} 
+2022-08-16 18:35:43,018 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38752)>,), {}. 
+2022-08-16 18:35:43,018 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:35:43,019 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'ls', 'to': 'hi', 'time': 1660664142.8266864, 'mess_text': 'угу'} 
+2022-08-16 18:35:43,026 - 20 - server - Отправлено сообщение пользователю hi от пользователя ls. 
+2022-08-16 18:36:18,568 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38752)>,), {}. 
+2022-08-16 18:36:18,568 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:36:18,568 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'ls', 'to': 'hi', 'time': 1660664178.235203, 'mess_text': 'вр'} 
+2022-08-16 18:36:18,573 - 20 - server - Отправлено сообщение пользователю hi от пользователя ls. 
+2022-08-16 18:39:33,800 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38748)>,), {}. 
+2022-08-16 18:39:33,800 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:39:33,800 - 10 - server - Разбор сообщения от клиента : {'action': 'remove', 'time': 1660664373.7590976, 'user': 'hi', 'account_name': 'ls'} 
+2022-08-16 18:39:37,813 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 38748)>,), {}. 
+2022-08-16 18:39:37,813 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-16 18:39:37,814 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1660664377.1708734, 'account_name': 'hi'} 
+2022-08-16 18:39:37,821 - 20 - server - Клиент hi корректно отключился от сервера. 
