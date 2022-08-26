@@ -1,0 +1,21 @@
+2022-08-02 17:37:03,097 - 10 - decorator - Была вызвана функция arg_parser c параметрами (), {}. 
+2022-08-02 17:37:03,097 - 10 - decorator - Функция arg_parser вызвана из функции main(). 
+2022-08-02 17:37:03,097 - 20 - server - Запущен сервер, порт для подключений: 7774, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов. 
+2022-08-02 17:38:00,443 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 58238) 
+2022-08-02 17:38:00,944 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 58238)>,), {}. 
+2022-08-02 17:38:00,944 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-02 17:38:00,945 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1659451080.4437878, 'user': {'account_name': 'ls'}} 
+2022-08-02 17:38:00,945 - 10 - decorator - Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1659451080.4437878, 'user': {'account_name': 'ls'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 58238)>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 58238)>], {'ls': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 58238)>}), {}. 
+2022-08-02 17:38:00,945 - 10 - decorator - Функция process_client_message вызвана из функции main(). 
+2022-08-02 17:38:24,974 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 58238)>,), {}. 
+2022-08-02 17:38:24,975 - 10 - decorator - Функция get_message вызвана из функции main(). 
+2022-08-02 17:38:24,975 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1659451104.817215, 'account_name': 'ls'} 
+2022-08-02 17:38:24,975 - 10 - decorator - Была вызвана функция process_client_message c параметрами ({'action': 'exit', 'time': 1659451104.817215, 'account_name': 'ls'}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [], {}), {}. 
+2022-08-02 17:38:24,976 - 10 - decorator - Функция process_client_message вызвана из функции main(). 
+2022-08-02 19:23:32,521 - 10 - decorator - Была вызвана функция arg_parser c параметрами (), {}. 
+2022-08-02 19:23:32,521 - 10 - decorator - Функция arg_parser вызвана из функции main(). 
+2022-08-02 19:23:32,521 - 20 - server - Запущен сервер, порт для подключений: 7774, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов. 
+2022-08-02 19:37:07,579 - 20 - server_ - Запущен сервер с параметрами: адрес: 127.0.0.1, порт: 7774 
+2022-08-02 20:44:47,252 - 20 - server_ - Запущен сервер с параметрами: адрес: 127.0.0.1, порт: 7777 
+2022-08-02 20:55:35,865 - 20 - server_ - Запущен сервер с параметрами: адрес: 127.0.0.1, порт: 7777 
+2022-08-02 21:13:42,320 - 20 - server_ - Запущен сервер с параметрами: адрес: 127.0.0.1, порт: 7777 

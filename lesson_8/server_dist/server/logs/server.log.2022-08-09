@@ -1,0 +1,29 @@
+2022-08-09 18:22:42,441 - 10 - decorator - Была вызвана функция arg_parser c параметрами (), {}. 
+2022-08-09 18:22:42,441 - 10 - decorator - Функция arg_parser вызвана из функции main(). 
+2022-08-09 18:29:57,535 - 10 - decorator - Была вызвана функция arg_parser c параметрами (), {}. 
+2022-08-09 18:29:57,535 - 10 - decorator - Функция arg_parser вызвана из функции main(). 
+2022-08-09 18:29:57,551 - 20 - server - Запущен сервер, порт для подключений: 7774, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов. 
+2022-08-09 18:31:31,899 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 57168) 
+2022-08-09 18:31:32,400 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 57168)>,), {}. 
+2022-08-09 18:31:32,402 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-09 18:31:32,402 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1660059091.8998044, 'user': {'account_name': 'hi'}} 
+2022-08-09 18:31:47,129 - 20 - server - Установлено соедение с ПК ('127.0.0.1', 57172) 
+2022-08-09 18:31:47,630 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 57172)>,), {}. 
+2022-08-09 18:31:47,631 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-09 18:31:47,631 - 10 - server - Разбор сообщения от клиента : {'action': 'presence', 'time': 1660059107.1298964, 'user': {'account_name': 'ls'}} 
+2022-08-09 18:33:26,762 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 57168)>,), {}. 
+2022-08-09 18:33:26,762 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-09 18:33:26,763 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'hi', 'to': 'ls', 'time': 1660059206.564687, 'mess_text': 'dlkfk'} 
+2022-08-09 18:33:26,763 - 20 - server - Отправлено сообщение пользователю ls от пользователя hi. 
+2022-08-09 18:33:43,283 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 57172)>,), {}. 
+2022-08-09 18:33:43,283 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-09 18:33:43,284 - 10 - server - Разбор сообщения от клиента : {'action': 'message', 'from': 'ls', 'to': 'hi', 'time': 1660059222.9484437, 'mess_text': 'dkde'} 
+2022-08-09 18:33:43,284 - 20 - server - Отправлено сообщение пользователю hi от пользователя ls. 
+2022-08-09 18:33:50,794 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 57168)>,), {}. 
+2022-08-09 18:33:50,794 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-09 18:33:50,795 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1660059230.7083616, 'account_name': 'hi'} 
+2022-08-09 18:33:50,800 - 20 - server - Клиент ('127.0.0.1', 57168) отключился от сервера. 
+2022-08-09 18:33:57,808 - 10 - decorator - Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7774), raddr=('127.0.0.1', 57172)>,), {}. 
+2022-08-09 18:33:57,809 - 10 - decorator - Функция get_message вызвана из функции self._bootstrap_inner(). 
+2022-08-09 18:33:57,809 - 10 - server - Разбор сообщения от клиента : {'action': 'exit', 'time': 1660059237.6284044, 'account_name': 'ls'} 
+2022-08-09 18:33:57,811 - 20 - server - Клиент ('127.0.0.1', 57172) отключился от сервера. 

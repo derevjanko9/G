@@ -1,0 +1,6 @@
+setup.py
+c_messenger.egg-info/PKG-INFO
+c_messenger.egg-info/SOURCES.txt
+c_messenger.egg-info/dependency_links.txt
+c_messenger.egg-info/requires.txt
+c_messenger.egg-info/top_level.txt
